@@ -8,9 +8,9 @@ logging.basicConfig(level=logging.INFO, format='%(message)s')
 
 # SECCION META (EDITAR AQUI)
 META = {
-    "nombre": "TU_NOMBRE",
-    "email": "TU_EMAIL",
-    "repo_url": "TU_REPO"
+    "nombre": "ALBERTO MILLÁN",
+    "email": "carlosalbertomillanc@gmail.com",
+    "repo_url": "https://github.com/AlbertoMillanC/millan_prueba_utl_2026"
 }
 
 DB_PATH = 'db/puestos_2026.db'

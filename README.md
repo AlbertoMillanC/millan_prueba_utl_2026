@@ -2,7 +2,7 @@
 
 ## Candidato
 - **Nombre completo**: Alberto Millán
-- **Email**: albertomillanc@users.noreply.github.com
+- **Email**: carlosalbertomillanc@gmail.com
 - **URL del repositorio GitHub**: https://github.com/AlbertoMillanC/millan_prueba_utl_2026
 
 ## Instalación

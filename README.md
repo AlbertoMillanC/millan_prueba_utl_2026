@@ -1,50 +1,47 @@
-# Prueba Técnica UTL 2026 - Alberto Millán
+# Prueba Técnica UTL 2026
 
-¡Bienvenido al repositorio de la solución de la prueba técnica! 
+## Descripción del Proyecto
+Este repositorio contiene la solución a la prueba técnica, incluyendo el proceso de extracción de datos, creación de la base de datos y el dashboard de visualización.
 
-Este proyecto implementa un pipeline completo de extracción, transformación y carga (ETL), seguido de la generación de un Dashboard analítico moderno para la visualización de datos electorales.
+## Estructura
+- **scraper/**: Contiene los scripts en Python usados para consumir la API de la Registraduría y descargar los JSON de las mesas.
+- **db/**: Carpeta destinada para alojar la base de datos `puestos_2026.db` (excluida por su peso) y el script `etl.py` que procesa los JSON.
+- **sql/**: Archivos con las consultas SQL requeridas en la prueba (Top Cámara, Arrastre, etc.).
+- **dashboard/**: Contiene el frontend `index.html` y el script `export_data.py` encargado de generar el archivo ligero `data.json` para las gráficas.
 
-## 🚀 Arquitectura del Proyecto
+## Base de Datos SQLite
+Para cumplir con los lineamientos de la prueba (y dado que `puestos_2026.db` pesa cerca de 480 MB, superando el límite de 50 MB de GitHub), el archivo fue excluido usando `.gitignore`.
 
-1. **Scraping (Extracción):** Scripts asíncronos (`scraper.py`) para consumir la API JSON cruda de la Registraduría (Nomenclátor departamental y miles de mesas a nivel municipal).
-2. **Procesamiento y Base de Datos (ETL):** Script (`etl.py`) para parsear la estructura jerárquica de JSONs, aplanar la información y cargarla en una base de datos relacional robusta (SQLite3).
-3. **Análisis de Datos:** Consultas SQL avanzadas para obtener insights como el Top 10 de Cámara, líderes al Senado, y el efecto de "arrastre" del Partido Alianza Verde.
-4. **Exportación (Data Preparation):** Script (`export_data.py`) que condensa los resultados de la DB en un archivo ultra ligero `data.json` para consumo del Frontend.
-5. **Dashboard Interactivo:** Interfaz gráfica web moderna (`index.html`) con diseño responsivo, gráficas interactivas (Chart.js), selectores de municipio, barras de datos CSS y exportación a Excel multi-hojas nativa.
+La base de datos pre-cargada se puede descargar desde la pestaña de "Releases" de este repositorio:
+[Descargar puestos_2026.db](../../releases/latest)
 
-## 🗄️ Base de Datos (SQLite)
+Una vez descargada, debe ubicarse dentro de la carpeta `db/`.
 
-> **⚠️ AVISO IMPORTANTE SOBRE LA BASE DE DATOS**
-> Debido a que la base de datos resultante (`puestos_2026.db`) tiene un tamaño aproximado de 480 MB (lo cual supera el límite de 50 MB / 100 MB de GitHub), ha sido excluida del control de versiones mediante `.gitignore` cumpliendo con las instrucciones de la prueba.
+## Instrucciones para ejecución local
+Para correr el proyecto desde cero:
 
-Puedes descargar la base de datos pre-cargada y lista para usar desde los **Releases** de este repositorio.
-
-🔗 **[Descargar puestos_2026.db desde GitHub Releases](../../releases/latest)**
-
-*(Una vez descargada, colócala dentro de la carpeta `db/` para que los scripts locales puedan consultarla).*
-
-## 💻 Instrucciones de Ejecución Local
-
-Si deseas correr el proceso desde cero (descargar datos, crear DB e inyectar al dashboard):
-
-1. **Instalar dependencias:**
-   ```bash
+1. Instalar dependencias:
+   ```
    pip install -r requirements.txt
    ```
-2. **Ejecutar el Scraper (descarga los JSON):**
-   ```bash
+
+2. Descargar los datos (Scraping):
+   ```
    python scraper/scraper.py
    ```
-3. **Ejecutar el ETL (Crea la base de datos SQLite):**
-   ```bash
+
+3. Procesar los JSON y armar la base de datos:
+   ```
    python db/etl.py
    ```
-4. **Generar el JSON para el Dashboard:**
-   ```bash
+
+4. Generar los datos para el dashboard:
+   ```
    python dashboard/export_data.py
    ```
-5. **Visualizar:**
-   Abre el archivo `dashboard/index.html` en cualquier navegador web.
+
+5. Ver el Dashboard:
+   Abrir el archivo `dashboard/index.html` en el navegador web.
 
 ---
-**Elaborado por:** Alberto Millán
+Elaborado por: Alberto Millán

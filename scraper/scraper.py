@@ -155,4 +155,12 @@ if __name__ == '__main__':
         preflight(args.municipios)
     else:
         extract_and_save(args.municipios)
-        logging.info("Extraccion completada. Ejecuta db/etl.py para cargar a SQLite.")
+        logging.info("Extraccion completada. Ejecutando ETL para poblar SQLite...")
+        
+        # Call the ETL script to ensure the DB is built automatically
+        try:
+            import subprocess
+            subprocess.run(["python", "db/etl.py"], check=True)
+            logging.info("Base de datos puestos_2026.db generada exitosamente.")
+        except Exception as e:
+            logging.error(f"Error al ejecutar db/etl.py: {e}")

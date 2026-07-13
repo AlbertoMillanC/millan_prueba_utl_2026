@@ -17,31 +17,35 @@ Puede descargar la base de datos pre-cargada y lista para usar desde aquí:
 
 Una vez descargada, debe ubicarse dentro de la carpeta `db/`.
 
-## Instrucciones para ejecución local
-Para correr el proyecto desde cero:
+## Uso del Dashboard (Resultados)
+El dashboard interactivo ya se encuentra completamente generado y listo para su uso. **No es necesario ejecutar ningún script** para visualizar los datos.
+
+Para acceder, simplemente abra el archivo `dashboard/index.html` en cualquier navegador web.
+
+## Memoria Técnica (Código Fuente)
+Los scripts en Python se incluyen en este repositorio como evidencia del trabajo de ingeniería de datos realizado (Scraping y ETL).
+
+En caso de que el equipo evaluador desee auditar o reproducir el proceso de extracción desde cero, el orden de ejecución original fue el siguiente:
 
 1. Instalar dependencias:
    ```
    pip install -r requirements.txt
    ```
 
-2. Descargar los datos (Scraping):
+2. Descargar los datos crudos de la API (Scraping):
    ```
    python scraper/scraper.py
    ```
 
-3. Procesar los JSON y armar la base de datos:
+3. Procesar los JSON y armar la base de datos SQLite:
    ```
    python db/etl.py
    ```
 
-4. Generar los datos para el dashboard:
+4. Exportar el archivo `data.json` que alimenta al dashboard:
    ```
    python dashboard/export_data.py
    ```
-
-5. Ver el Dashboard:
-   Abrir el archivo `dashboard/index.html` en el navegador web.
 
 ---
 Elaborado por: Alberto Millán

@@ -53,7 +53,7 @@ La extracción y análisis se centró en el "Top 4" de Boyacá:
 ## Hallazgos principales
 - **Caudal Electoral**: Tunja y Sogamoso representan la mayor concentración absoluta de sufragios en los cuatro municipios seleccionados, siendo determinantes en el cociente departamental.
 - **Liderazgo Senado**: A diferencia de la Cámara de Representantes donde hay mayor variabilidad de movimientos regionales, en el Senado de la República las fuerzas mayoritarias (como el Partido Alianza Verde y el Pacto Histórico) logran consolidar sólidas votaciones a nivel municipal, confirmando el efecto "arrastre".
-- **Comportamiento Urbano vs. Rural**: Las zonas densamente pobladas (mesas urbanas) muestran un comportamiento más heterogéneo en los votos de Cámara, mientras que los puestos rurales concentran la votación en caudillos locales específicos (dominancia extrema).
+- **Comportamiento Urbano vs. Rural**: Las zonas densamente pobladas (mesas urbanas) muestran un comportamiento más heterogéneo en los votos de Cámara, mientras que los puestos rurales concentran la votación en líderes locales y regionales específicos (dominancia extrema).
 
 ## Bonus implementados
 - **Flag `--preflight` en el scraper**: Muestra conteo de mesas sin descargar (`python scraper/scraper.py --preflight`).

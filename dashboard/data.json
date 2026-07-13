@@ -1,0 +1,1062 @@
+{
+  "totales_ca_mun": [
+    {
+      "municipio": "PAIPA",
+      "votos": 33728
+    },
+    {
+      "municipio": "DUITAMA",
+      "votos": 96570
+    },
+    {
+      "municipio": "SOGAMOSO",
+      "votos": 102626
+    },
+    {
+      "municipio": "TUNJA",
+      "votos": 147400
+    }
+  ],
+  "top10_ca": {
+    "PAIPA": [
+      {
+        "candidato": "YAMIT NOE HURTADO NEIRA",
+        "partido": "Alianza Verde",
+        "votos": 9308
+      },
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Pacto Historico",
+        "votos": 6360
+      },
+      {
+        "candidato": "JAIME RAUL SALAMANCA TORRES",
+        "partido": "Alianza Verde",
+        "votos": 2895
+      },
+      {
+        "candidato": "HECTOR DAVID CHAPARRO CHAPARRO",
+        "partido": "Conservador",
+        "votos": 2739
+      },
+      {
+        "candidato": "EDUAR ALEXIS TRIANA RINCON",
+        "partido": "Centro Democratico",
+        "votos": 1726
+      },
+      {
+        "candidato": "WILDER IVAN SUESCA OCHOA",
+        "partido": "Coalición Conservador - Salvación Nacional",
+        "votos": 1429
+      },
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Alianza Verde",
+        "votos": 1077
+      },
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Centro Democratico",
+        "votos": 748
+      },
+      {
+        "candidato": "RAMIRO BARRAGAN ADAME",
+        "partido": "Alianza Verde",
+        "votos": 700
+      },
+      {
+        "candidato": "OSCAR LEONARDO AVILA ROMERO",
+        "partido": "Conservador",
+        "votos": 537
+      }
+    ],
+    "DUITAMA": [
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Pacto Historico",
+        "votos": 36454
+      },
+      {
+        "candidato": "HECTOR DAVID CHAPARRO CHAPARRO",
+        "partido": "Conservador",
+        "votos": 9005
+      },
+      {
+        "candidato": "JAIME RAUL SALAMANCA TORRES",
+        "partido": "Alianza Verde",
+        "votos": 4315
+      },
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Centro Democratico",
+        "votos": 3835
+      },
+      {
+        "candidato": "HERNEL DAVID ORTEGA GOMEZ",
+        "partido": "Coalición Conservador - Salvación Nacional",
+        "votos": 3068
+      },
+      {
+        "candidato": "RAMIRO BARRAGAN ADAME",
+        "partido": "Alianza Verde",
+        "votos": 3001
+      },
+      {
+        "candidato": "YAMIT NOE HURTADO NEIRA",
+        "partido": "Alianza Verde",
+        "votos": 2587
+      },
+      {
+        "candidato": "INGRID MARLEN SOGAMOSO ALFONSO",
+        "partido": "Coalición Conservador - Salvación Nacional",
+        "votos": 2253
+      },
+      {
+        "candidato": "NANCY YANETH ZAPATA PACHON",
+        "partido": "Coalición Partido de la U - MIRA",
+        "votos": 2248
+      },
+      {
+        "candidato": "JICLY ESGARDO MUTIS ISAZA",
+        "partido": "Centro Democratico",
+        "votos": 2099
+      }
+    ],
+    "SOGAMOSO": [
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Pacto Historico",
+        "votos": 26150
+      },
+      {
+        "candidato": "HECTOR DAVID CHAPARRO CHAPARRO",
+        "partido": "Conservador",
+        "votos": 11039
+      },
+      {
+        "candidato": "RAMIRO BARRAGAN ADAME",
+        "partido": "Alianza Verde",
+        "votos": 5509
+      },
+      {
+        "candidato": "DIANA PAOLA HERRERA NUÑEZ",
+        "partido": "Conservador",
+        "votos": 3891
+      },
+      {
+        "candidato": "JAIME RAUL SALAMANCA TORRES",
+        "partido": "Alianza Verde",
+        "votos": 3480
+      },
+      {
+        "candidato": "NADIA ALEXANDRA CARREÑO AVELLA",
+        "partido": "Coalición Cambio Radical - Nuevo Liberalismo",
+        "votos": 3440
+      },
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Centro Democratico",
+        "votos": 3414
+      },
+      {
+        "candidato": "FABIAN CAMILO ROJAS BARRERA",
+        "partido": "Coalición Cambio Radical - Nuevo Liberalismo",
+        "votos": 2735
+      },
+      {
+        "candidato": "YURY NEILL DIAZ ARANGUREN",
+        "partido": "Coalición Partido de la U - MIRA",
+        "votos": 2665
+      },
+      {
+        "candidato": "JAIRO ENRIQUE CASTIBLANCO PARRA",
+        "partido": "Coalición Partido de la U - MIRA",
+        "votos": 2615
+      }
+    ],
+    "TUNJA": [
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Pacto Historico",
+        "votos": 39659
+      },
+      {
+        "candidato": "RAMIRO BARRAGAN ADAME",
+        "partido": "Alianza Verde",
+        "votos": 8529
+      },
+      {
+        "candidato": "JAIME RAUL SALAMANCA TORRES",
+        "partido": "Alianza Verde",
+        "votos": 7928
+      },
+      {
+        "candidato": "YAMIT NOE HURTADO NEIRA",
+        "partido": "Alianza Verde",
+        "votos": 7822
+      },
+      {
+        "candidato": "INGRID MARLEN SOGAMOSO ALFONSO",
+        "partido": "Coalición Conservador - Salvación Nacional",
+        "votos": 5775
+      },
+      {
+        "candidato": "FABIAN CAMILO ROJAS BARRERA",
+        "partido": "Coalición Cambio Radical - Nuevo Liberalismo",
+        "votos": 5666
+      },
+      {
+        "candidato": "WILDER IVAN SUESCA OCHOA",
+        "partido": "Coalición Conservador - Salvación Nacional",
+        "votos": 5481
+      },
+      {
+        "candidato": "HECTOR DAVID CHAPARRO CHAPARRO",
+        "partido": "Conservador",
+        "votos": 4667
+      },
+      {
+        "candidato": "JOSE DARIO MAHECHA CASTILLO",
+        "partido": "Coalición Conservador - Salvación Nacional",
+        "votos": 4466
+      },
+      {
+        "candidato": "OSCAR LEONARDO AVILA ROMERO",
+        "partido": "Conservador",
+        "votos": 4338
+      }
+    ]
+  },
+  "lider_se": {
+    "PAIPA": {
+      "partido": "Alianza Verde",
+      "votos": 8322
+    },
+    "DUITAMA": {
+      "partido": "Pacto Historico",
+      "votos": 30412
+    },
+    "SOGAMOSO": {
+      "partido": "Pacto Historico",
+      "votos": 27544
+    },
+    "TUNJA": {
+      "partido": "Pacto Historico",
+      "votos": 40832
+    }
+  },
+  "arrastre_verde": {
+    "PAIPA": [
+      {
+        "puesto": "0700181010002",
+        "votos_se": 602,
+        "votos_ca": 914,
+        "ratio": 0.6586433260393874
+      },
+      {
+        "puesto": "0700181990038",
+        "votos_se": 155,
+        "votos_ca": 246,
+        "ratio": 0.6300813008130082
+      },
+      {
+        "puesto": "0700181020001",
+        "votos_se": 1220,
+        "votos_ca": 1957,
+        "ratio": 0.623403168114461
+      },
+      {
+        "puesto": "0700181020002",
+        "votos_se": 930,
+        "votos_ca": 1546,
+        "ratio": 0.6015523932729625
+      },
+      {
+        "puesto": "PUESTO_4",
+        "votos_se": 893,
+        "votos_ca": 1504,
+        "ratio": 0.59375
+      },
+      {
+        "puesto": "0700181010001",
+        "votos_se": 1183,
+        "votos_ca": 2017,
+        "ratio": 0.5865146256817055
+      },
+      {
+        "puesto": "PUESTO_5",
+        "votos_se": 648,
+        "votos_ca": 1123,
+        "ratio": 0.5770258236865539
+      },
+      {
+        "puesto": "PUESTO_2",
+        "votos_se": 871,
+        "votos_ca": 1529,
+        "ratio": 0.5696533682145193
+      },
+      {
+        "puesto": "PUESTO_3",
+        "votos_se": 855,
+        "votos_ca": 1506,
+        "ratio": 0.5677290836653387
+      },
+      {
+        "puesto": "PUESTO_1",
+        "votos_se": 894,
+        "votos_ca": 2006,
+        "ratio": 0.4456630109670987
+      },
+      {
+        "puesto": "0700181990015",
+        "votos_se": 9,
+        "votos_ca": 25,
+        "ratio": 0.36
+      },
+      {
+        "puesto": "0700181990001",
+        "votos_se": 62,
+        "votos_ca": 187,
+        "ratio": 0.3315508021390374
+      }
+    ],
+    "DUITAMA": [
+      {
+        "puesto": "0700079990010",
+        "votos_se": 319,
+        "votos_ca": 166,
+        "ratio": 1.9216867469879517
+      },
+      {
+        "puesto": "0700079020002",
+        "votos_se": 1200,
+        "votos_ca": 782,
+        "ratio": 1.5345268542199488
+      },
+      {
+        "puesto": "0700079010005",
+        "votos_se": 344,
+        "votos_ca": 227,
+        "ratio": 1.5154185022026432
+      },
+      {
+        "puesto": "0700079010004",
+        "votos_se": 364,
+        "votos_ca": 243,
+        "ratio": 1.4979423868312758
+      },
+      {
+        "puesto": "0700079010006",
+        "votos_se": 470,
+        "votos_ca": 329,
+        "ratio": 1.4285714285714286
+      },
+      {
+        "puesto": "0700079990040",
+        "votos_se": 7,
+        "votos_ca": 5,
+        "ratio": 1.4
+      },
+      {
+        "puesto": "PUESTO_15",
+        "votos_se": 206,
+        "votos_ca": 152,
+        "ratio": 1.355263157894737
+      },
+      {
+        "puesto": "PUESTO_13",
+        "votos_se": 600,
+        "votos_ca": 454,
+        "ratio": 1.3215859030837005
+      },
+      {
+        "puesto": "PUESTO_12",
+        "votos_se": 579,
+        "votos_ca": 440,
+        "ratio": 1.315909090909091
+      },
+      {
+        "puesto": "PUESTO_2",
+        "votos_se": 605,
+        "votos_ca": 462,
+        "ratio": 1.3095238095238095
+      },
+      {
+        "puesto": "PUESTO_4",
+        "votos_se": 597,
+        "votos_ca": 456,
+        "ratio": 1.3092105263157894
+      },
+      {
+        "puesto": "PUESTO_14",
+        "votos_se": 585,
+        "votos_ca": 451,
+        "ratio": 1.2971175166297118
+      },
+      {
+        "puesto": "0700079010001",
+        "votos_se": 472,
+        "votos_ca": 364,
+        "ratio": 1.2967032967032968
+      },
+      {
+        "puesto": "PUESTO_6",
+        "votos_se": 578,
+        "votos_ca": 448,
+        "ratio": 1.2901785714285714
+      },
+      {
+        "puesto": "PUESTO_7",
+        "votos_se": 589,
+        "votos_ca": 457,
+        "ratio": 1.288840262582057
+      },
+      {
+        "puesto": "PUESTO_5",
+        "votos_se": 595,
+        "votos_ca": 462,
+        "ratio": 1.2878787878787878
+      },
+      {
+        "puesto": "0700079020006",
+        "votos_se": 415,
+        "votos_ca": 323,
+        "ratio": 1.284829721362229
+      },
+      {
+        "puesto": "PUESTO_10",
+        "votos_se": 570,
+        "votos_ca": 446,
+        "ratio": 1.2780269058295963
+      },
+      {
+        "puesto": "PUESTO_11",
+        "votos_se": 573,
+        "votos_ca": 450,
+        "ratio": 1.2733333333333334
+      },
+      {
+        "puesto": "0700079990050",
+        "votos_se": 19,
+        "votos_ca": 15,
+        "ratio": 1.2666666666666666
+      },
+      {
+        "puesto": "0700079020001",
+        "votos_se": 924,
+        "votos_ca": 732,
+        "ratio": 1.2622950819672132
+      },
+      {
+        "puesto": "PUESTO_8",
+        "votos_se": 577,
+        "votos_ca": 458,
+        "ratio": 1.259825327510917
+      },
+      {
+        "puesto": "0700079020005",
+        "votos_se": 543,
+        "votos_ca": 435,
+        "ratio": 1.2482758620689656
+      },
+      {
+        "puesto": "0700079020003",
+        "votos_se": 759,
+        "votos_ca": 610,
+        "ratio": 1.2442622950819673
+      },
+      {
+        "puesto": "0700079990070",
+        "votos_se": 77,
+        "votos_ca": 62,
+        "ratio": 1.2419354838709677
+      },
+      {
+        "puesto": "PUESTO_9",
+        "votos_se": 567,
+        "votos_ca": 460,
+        "ratio": 1.232608695652174
+      },
+      {
+        "puesto": "PUESTO_3",
+        "votos_se": 563,
+        "votos_ca": 457,
+        "ratio": 1.2319474835886215
+      },
+      {
+        "puesto": "0700079010003",
+        "votos_se": 371,
+        "votos_ca": 310,
+        "ratio": 1.196774193548387
+      },
+      {
+        "puesto": "0700079990005",
+        "votos_se": 45,
+        "votos_ca": 39,
+        "ratio": 1.1538461538461537
+      },
+      {
+        "puesto": "0700079020007",
+        "votos_se": 159,
+        "votos_ca": 139,
+        "ratio": 1.143884892086331
+      },
+      {
+        "puesto": "0700079900001",
+        "votos_se": 496,
+        "votos_ca": 439,
+        "ratio": 1.1298405466970387
+      },
+      {
+        "puesto": "0700079010002",
+        "votos_se": 488,
+        "votos_ca": 439,
+        "ratio": 1.111617312072893
+      },
+      {
+        "puesto": "0700079020004",
+        "votos_se": 388,
+        "votos_ca": 369,
+        "ratio": 1.051490514905149
+      },
+      {
+        "puesto": "0700079990007",
+        "votos_se": 221,
+        "votos_ca": 220,
+        "ratio": 1.0045454545454546
+      },
+      {
+        "puesto": "0700079990020",
+        "votos_se": 51,
+        "votos_ca": 52,
+        "ratio": 0.9807692307692307
+      },
+      {
+        "puesto": "PUESTO_1",
+        "votos_se": 587,
+        "votos_ca": 953,
+        "ratio": 0.6159496327387198
+      },
+      {
+        "puesto": "0700079980001",
+        "votos_se": 2,
+        "votos_ca": 6,
+        "ratio": 0.3333333333333333
+      }
+    ],
+    "SOGAMOSO": [
+      {
+        "puesto": "0700277990002",
+        "votos_se": 35,
+        "votos_ca": 15,
+        "ratio": 2.3333333333333335
+      },
+      {
+        "puesto": "0700277990003",
+        "votos_se": 19,
+        "votos_ca": 12,
+        "ratio": 1.5833333333333333
+      },
+      {
+        "puesto": "0700277990004",
+        "votos_se": 14,
+        "votos_ca": 12,
+        "ratio": 1.1666666666666667
+      },
+      {
+        "puesto": "0700277900001",
+        "votos_se": 479,
+        "votos_ca": 434,
+        "ratio": 1.1036866359447004
+      },
+      {
+        "puesto": "PUESTO_9",
+        "votos_se": 575,
+        "votos_ca": 528,
+        "ratio": 1.0890151515151516
+      },
+      {
+        "puesto": "0700277020006",
+        "votos_se": 553,
+        "votos_ca": 513,
+        "ratio": 1.077972709551657
+      },
+      {
+        "puesto": "0700277020002",
+        "votos_se": 953,
+        "votos_ca": 887,
+        "ratio": 1.0744081172491544
+      },
+      {
+        "puesto": "0700277020001",
+        "votos_se": 805,
+        "votos_ca": 752,
+        "ratio": 1.0704787234042554
+      },
+      {
+        "puesto": "PUESTO_7",
+        "votos_se": 574,
+        "votos_ca": 541,
+        "ratio": 1.0609981515711646
+      },
+      {
+        "puesto": "PUESTO_10",
+        "votos_se": 547,
+        "votos_ca": 524,
+        "ratio": 1.0438931297709924
+      },
+      {
+        "puesto": "PUESTO_8",
+        "votos_se": 549,
+        "votos_ca": 529,
+        "ratio": 1.0378071833648392
+      },
+      {
+        "puesto": "0700277010004",
+        "votos_se": 708,
+        "votos_ca": 684,
+        "ratio": 1.0350877192982457
+      },
+      {
+        "puesto": "PUESTO_11",
+        "votos_se": 563,
+        "votos_ca": 547,
+        "ratio": 1.0292504570383911
+      },
+      {
+        "puesto": "0700277020005",
+        "votos_se": 675,
+        "votos_ca": 656,
+        "ratio": 1.0289634146341464
+      },
+      {
+        "puesto": "PUESTO_12",
+        "votos_se": 541,
+        "votos_ca": 527,
+        "ratio": 1.0265654648956357
+      },
+      {
+        "puesto": "PUESTO_3",
+        "votos_se": 541,
+        "votos_ca": 531,
+        "ratio": 1.0188323917137476
+      },
+      {
+        "puesto": "PUESTO_14",
+        "votos_se": 544,
+        "votos_ca": 538,
+        "ratio": 1.0111524163568772
+      },
+      {
+        "puesto": "0700277020003",
+        "votos_se": 693,
+        "votos_ca": 689,
+        "ratio": 1.0058055152394776
+      },
+      {
+        "puesto": "PUESTO_2",
+        "votos_se": 542,
+        "votos_ca": 539,
+        "ratio": 1.0055658627087198
+      },
+      {
+        "puesto": "0700277010005",
+        "votos_se": 276,
+        "votos_ca": 276,
+        "ratio": 1.0
+      },
+      {
+        "puesto": "0700277980001",
+        "votos_se": 3,
+        "votos_ca": 3,
+        "ratio": 1.0
+      },
+      {
+        "puesto": "PUESTO_4",
+        "votos_se": 540,
+        "votos_ca": 543,
+        "ratio": 0.994475138121547
+      },
+      {
+        "puesto": "PUESTO_5",
+        "votos_se": 529,
+        "votos_ca": 539,
+        "ratio": 0.9814471243042672
+      },
+      {
+        "puesto": "0700277010002",
+        "votos_se": 541,
+        "votos_ca": 553,
+        "ratio": 0.9783001808318263
+      },
+      {
+        "puesto": "PUESTO_15",
+        "votos_se": 536,
+        "votos_ca": 554,
+        "ratio": 0.9675090252707581
+      },
+      {
+        "puesto": "0700277990001",
+        "votos_se": 49,
+        "votos_ca": 51,
+        "ratio": 0.9607843137254902
+      },
+      {
+        "puesto": "PUESTO_6",
+        "votos_se": 529,
+        "votos_ca": 551,
+        "ratio": 0.9600725952813067
+      },
+      {
+        "puesto": "PUESTO_13",
+        "votos_se": 511,
+        "votos_ca": 534,
+        "ratio": 0.9569288389513109
+      },
+      {
+        "puesto": "0700277020004",
+        "votos_se": 612,
+        "votos_ca": 642,
+        "ratio": 0.9532710280373832
+      },
+      {
+        "puesto": "0700277020007",
+        "votos_se": 156,
+        "votos_ca": 165,
+        "ratio": 0.9454545454545454
+      },
+      {
+        "puesto": "0700277010001",
+        "votos_se": 835,
+        "votos_ca": 896,
+        "ratio": 0.9319196428571429
+      },
+      {
+        "puesto": "0700277010003",
+        "votos_se": 604,
+        "votos_ca": 728,
+        "ratio": 0.8296703296703297
+      },
+      {
+        "puesto": "PUESTO_16",
+        "votos_se": 20,
+        "votos_ca": 27,
+        "ratio": 0.7407407407407407
+      },
+      {
+        "puesto": "PUESTO_1",
+        "votos_se": 554,
+        "votos_ca": 1032,
+        "ratio": 0.5368217054263565
+      }
+    ],
+    "TUNJA": [
+      {
+        "puesto": "0700001010003",
+        "votos_se": 521,
+        "votos_ca": 438,
+        "ratio": 1.1894977168949772
+      },
+      {
+        "puesto": "0700001030003",
+        "votos_se": 243,
+        "votos_ca": 205,
+        "ratio": 1.1853658536585365
+      },
+      {
+        "puesto": "0700001020008",
+        "votos_se": 434,
+        "votos_ca": 371,
+        "ratio": 1.169811320754717
+      },
+      {
+        "puesto": "0700001030004",
+        "votos_se": 917,
+        "votos_ca": 786,
+        "ratio": 1.1666666666666667
+      },
+      {
+        "puesto": "0700001020007",
+        "votos_se": 762,
+        "votos_ca": 671,
+        "ratio": 1.135618479880775
+      },
+      {
+        "puesto": "0700001020004",
+        "votos_se": 573,
+        "votos_ca": 514,
+        "ratio": 1.1147859922178989
+      },
+      {
+        "puesto": "PUESTO_22",
+        "votos_se": 168,
+        "votos_ca": 151,
+        "ratio": 1.1125827814569536
+      },
+      {
+        "puesto": "0700001010005",
+        "votos_se": 778,
+        "votos_ca": 715,
+        "ratio": 1.088111888111888
+      },
+      {
+        "puesto": "0700001030001",
+        "votos_se": 914,
+        "votos_ca": 858,
+        "ratio": 1.0652680652680653
+      },
+      {
+        "puesto": "0700001990021",
+        "votos_se": 33,
+        "votos_ca": 31,
+        "ratio": 1.064516129032258
+      },
+      {
+        "puesto": "PUESTO_14",
+        "votos_se": 773,
+        "votos_ca": 738,
+        "ratio": 1.0474254742547426
+      },
+      {
+        "puesto": "PUESTO_4",
+        "votos_se": 774,
+        "votos_ca": 740,
+        "ratio": 1.045945945945946
+      },
+      {
+        "puesto": "PUESTO_9",
+        "votos_se": 780,
+        "votos_ca": 746,
+        "ratio": 1.0455764075067024
+      },
+      {
+        "puesto": "PUESTO_10",
+        "votos_se": 774,
+        "votos_ca": 741,
+        "ratio": 1.0445344129554657
+      },
+      {
+        "puesto": "PUESTO_16",
+        "votos_se": 782,
+        "votos_ca": 751,
+        "ratio": 1.0412782956058588
+      },
+      {
+        "puesto": "PUESTO_3",
+        "votos_se": 773,
+        "votos_ca": 747,
+        "ratio": 1.034805890227577
+      },
+      {
+        "puesto": "PUESTO_8",
+        "votos_se": 776,
+        "votos_ca": 750,
+        "ratio": 1.0346666666666666
+      },
+      {
+        "puesto": "PUESTO_15",
+        "votos_se": 770,
+        "votos_ca": 745,
+        "ratio": 1.0335570469798658
+      },
+      {
+        "puesto": "PUESTO_20",
+        "votos_se": 780,
+        "votos_ca": 755,
+        "ratio": 1.033112582781457
+      },
+      {
+        "puesto": "PUESTO_7",
+        "votos_se": 772,
+        "votos_ca": 748,
+        "ratio": 1.032085561497326
+      },
+      {
+        "puesto": "0700001030002",
+        "votos_se": 949,
+        "votos_ca": 921,
+        "ratio": 1.0304017372421281
+      },
+      {
+        "puesto": "PUESTO_17",
+        "votos_se": 770,
+        "votos_ca": 748,
+        "ratio": 1.0294117647058822
+      },
+      {
+        "puesto": "PUESTO_6",
+        "votos_se": 770,
+        "votos_ca": 748,
+        "ratio": 1.0294117647058822
+      },
+      {
+        "puesto": "PUESTO_21",
+        "votos_se": 753,
+        "votos_ca": 733,
+        "ratio": 1.0272851296043657
+      },
+      {
+        "puesto": "PUESTO_11",
+        "votos_se": 769,
+        "votos_ca": 749,
+        "ratio": 1.026702269692924
+      },
+      {
+        "puesto": "0700001010006",
+        "votos_se": 1111,
+        "votos_ca": 1083,
+        "ratio": 1.025854108956602
+      },
+      {
+        "puesto": "PUESTO_19",
+        "votos_se": 766,
+        "votos_ca": 747,
+        "ratio": 1.0254350736278448
+      },
+      {
+        "puesto": "PUESTO_18",
+        "votos_se": 760,
+        "votos_ca": 749,
+        "ratio": 1.014686248331108
+      },
+      {
+        "puesto": "PUESTO_12",
+        "votos_se": 765,
+        "votos_ca": 756,
+        "ratio": 1.0119047619047619
+      },
+      {
+        "puesto": "PUESTO_13",
+        "votos_se": 761,
+        "votos_ca": 754,
+        "ratio": 1.009283819628647
+      },
+      {
+        "puesto": "0700001020002",
+        "votos_se": 656,
+        "votos_ca": 651,
+        "ratio": 1.0076804915514592
+      },
+      {
+        "puesto": "PUESTO_5",
+        "votos_se": 752,
+        "votos_ca": 751,
+        "ratio": 1.0013315579227697
+      },
+      {
+        "puesto": "0700001980001",
+        "votos_se": 5,
+        "votos_ca": 5,
+        "ratio": 1.0
+      },
+      {
+        "puesto": "0700001900001",
+        "votos_se": 908,
+        "votos_ca": 911,
+        "ratio": 0.9967069154774972
+      },
+      {
+        "puesto": "PUESTO_2",
+        "votos_se": 738,
+        "votos_ca": 744,
+        "ratio": 0.9919354838709677
+      },
+      {
+        "puesto": "0700001020003",
+        "votos_se": 612,
+        "votos_ca": 627,
+        "ratio": 0.9760765550239234
+      },
+      {
+        "puesto": "0700001020001",
+        "votos_se": 1191,
+        "votos_ca": 1230,
+        "ratio": 0.9682926829268292
+      },
+      {
+        "puesto": "0700001020009",
+        "votos_se": 122,
+        "votos_ca": 126,
+        "ratio": 0.9682539682539683
+      },
+      {
+        "puesto": "0700001030005",
+        "votos_se": 316,
+        "votos_ca": 327,
+        "ratio": 0.9663608562691132
+      },
+      {
+        "puesto": "0700001010002",
+        "votos_se": 571,
+        "votos_ca": 591,
+        "ratio": 0.9661590524534687
+      },
+      {
+        "puesto": "0700001010004",
+        "votos_se": 920,
+        "votos_ca": 953,
+        "ratio": 0.9653725078698846
+      },
+      {
+        "puesto": "0700001010001",
+        "votos_se": 945,
+        "votos_ca": 986,
+        "ratio": 0.9584178498985801
+      },
+      {
+        "puesto": "0700001020005",
+        "votos_se": 865,
+        "votos_ca": 903,
+        "ratio": 0.9579180509413068
+      },
+      {
+        "puesto": "0700001020010",
+        "votos_se": 262,
+        "votos_ca": 275,
+        "ratio": 0.9527272727272728
+      },
+      {
+        "puesto": "0700001030006",
+        "votos_se": 858,
+        "votos_ca": 901,
+        "ratio": 0.9522752497225305
+      },
+      {
+        "puesto": "0700001020011",
+        "votos_se": 8,
+        "votos_ca": 9,
+        "ratio": 0.8888888888888888
+      },
+      {
+        "puesto": "0700001020006",
+        "votos_se": 488,
+        "votos_ca": 564,
+        "ratio": 0.8652482269503546
+      },
+      {
+        "puesto": "PUESTO_1",
+        "votos_se": 770,
+        "votos_ca": 1243,
+        "ratio": 0.6194690265486725
+      }
+    ]
+  },
+  "totales_se_mun": [
+    {
+      "municipio": "DUITAMA",
+      "votos": 96565
+    },
+    {
+      "municipio": "PAIPA",
+      "votos": 32806
+    },
+    {
+      "municipio": "SOGAMOSO",
+      "votos": 100623
+    },
+    {
+      "municipio": "TUNJA",
+      "votos": 147957
+    }
+  ]
+}

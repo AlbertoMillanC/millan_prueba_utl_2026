@@ -1,0 +1,9 @@
+# Databases
+db/*.db
+
+# Raw data downloads
+sample_data/mesas/
+
+# Python cache
+__pycache__/
+*.pyc

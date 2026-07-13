@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "nombre": "TU_NOMBRE",
+    "email": "TU_EMAIL",
+    "repo_url": "TU_REPO"
+  },
+  "database": {
+    "municipios_presentes": 4,
+    "filas_resultados": 2979452,
+    "filas_candidatos": 1361
+  },
+  "reto3": {
+    "tarea_3_1": [
+      {
+        "municipio": "SOGAMOSO",
+        "puesto": "0700277990002",
+        "votos_senado_verde": 35,
+        "votos_camara_verde": 15,
+        "ratio_arrastre": 2.3333333333333335
+      },
+      {
+        "municipio": "DUITAMA",
+        "puesto": "0700079990010",
+        "votos_senado_verde": 319,
+        "votos_camara_verde": 166,
+        "ratio_arrastre": 1.9216867469879517
+      },
+      {
+        "municipio": "SOGAMOSO",
+        "puesto": "0700277990003",
+        "votos_senado_verde": 19,
+        "votos_camara_verde": 12,
+        "ratio_arrastre": 1.5833333333333333
+      },
+      {
+        "municipio": "DUITAMA",
+        "puesto": "0700079020002",
+        "votos_senado_verde": 1200,
+        "votos_camara_verde": 782,
+        "ratio_arrastre": 1.5345268542199488
+      },
+      {
+        "municipio": "DUITAMA",
+        "puesto": "0700079010005",
+        "votos_senado_verde": 344,
+        "votos_camara_verde": 227,
+        "ratio_arrastre": 1.5154185022026432
+      }
+    ],
+    "tarea_3_2": [
+      {
+        "municipio": "DUITAMA",
+        "corporacion": "CA",
+        "puesto": "0700079900001",
+        "mesa": "000005",
+        "partido": "Pacto Historico",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 130,
+        "total_votos_partido": 130,
+        "porcentaje_dominancia": 1.0
+      },
+      {
+        "municipio": "DUITAMA",
+        "corporacion": "CA",
+        "puesto": "0700079900001",
+        "mesa": "000003",
+        "partido": "Pacto Historico",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 127,
+        "total_votos_partido": 127,
+        "porcentaje_dominancia": 1.0
+      },
+      {
+        "municipio": "DUITAMA",
+        "corporacion": "CA",
+        "puesto": "0700079900001",
+        "mesa": "000006",
+        "partido": "Pacto Historico",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 123,
+        "total_votos_partido": 123,
+        "porcentaje_dominancia": 1.0
+      },
+      {
+        "municipio": "DUITAMA",
+        "corporacion": "CA",
+        "puesto": "0700079900001",
+        "mesa": "000002",
+        "partido": "Pacto Historico",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 122,
+        "total_votos_partido": 122,
+        "porcentaje_dominancia": 1.0
+      },
+      {
+        "municipio": "DUITAMA",
+        "corporacion": "CA",
+        "puesto": "0700079900001",
+        "mesa": "000001",
+        "partido": "Pacto Historico",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 116,
+        "total_votos_partido": 116,
+        "porcentaje_dominancia": 1.0
+      },
+      {
+        "municipio": "DUITAMA",
+        "corporacion": "CA",
+        "puesto": "0700079900001",
+        "mesa": "000004",
+        "partido": "Pacto Historico",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 113,
+        "total_votos_partido": 113,
+        "porcentaje_dominancia": 1.0
+      },
+      {
+        "municipio": "DUITAMA",
+        "corporacion": "CA",
+        "puesto": "0700079900001",
+        "mesa": "000009",
+        "partido": "Pacto Historico",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 113,
+        "total_votos_partido": 113,
+        "porcentaje_dominancia": 1.0
+      },
+      {
+        "municipio": "DUITAMA",
+        "corporacion": "CA",
+        "puesto": "0700079900001",
+        "mesa": "000007",
+        "partido": "Pacto Historico",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 112,
+        "total_votos_partido": 112,
+        "porcentaje_dominancia": 1.0
+      },
+      {
+        "municipio": "TUNJA",
+        "corporacion": "CA",
+        "puesto": "0700001020007",
+        "mesa": "000006",
+        "partido": "PARTIDO 340",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 110,
+        "total_votos_partido": 110,
+        "porcentaje_dominancia": 1.0
+      },
+      {
+        "municipio": "DUITAMA",
+        "corporacion": "CA",
+        "puesto": "0700079900001",
+        "mesa": "000008",
+        "partido": "Pacto Historico",
+        "candidato": "SOLO POR LA LISTA",
+        "votos_candidato": 105,
+        "total_votos_partido": 105,
+        "porcentaje_dominancia": 1.0
+      }
+    ],
+    "tarea_3_3": [
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Pacto Historico",
+        "votos_cand": 108623,
+        "votos_partido": 108623,
+        "votos_SE_partido": 106126,
+        "atribucion_se": 106126.0
+      },
+      {
+        "candidato": "YAMIT NOE HURTADO NEIRA",
+        "partido": "Alianza Verde",
+        "votos_cand": 22105,
+        "votos_partido": 76410,
+        "votos_SE_partido": 73290,
+        "atribucion_se": 21202.400863761286
+      },
+      {
+        "candidato": "SOLO POR LA LISTA",
+        "partido": "Centro Democratico",
+        "votos_cand": 12250,
+        "votos_partido": 40666,
+        "votos_SE_partido": 60742,
+        "atribucion_se": 18297.58274725815
+      },
+      {
+        "candidato": "JAIME RAUL SALAMANCA TORRES",
+        "partido": "Alianza Verde",
+        "votos_cand": 18618,
+        "votos_partido": 76410,
+        "votos_SE_partido": 73290,
+        "atribucion_se": 17857.783274440517
+      },
+      {
+        "candidato": "RAMIRO BARRAGAN ADAME",
+        "partido": "Alianza Verde",
+        "votos_cand": 17739,
+        "votos_partido": 76410,
+        "votos_SE_partido": 73290,
+        "atribucion_se": 17014.674911660775
+      }
+    ]
+  },
+  "reto5": "r=0.809 | pendiente=0.678 | n_mesas=2169"
+}

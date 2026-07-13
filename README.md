@@ -12,7 +12,7 @@ Este repositorio contiene la solución a la prueba técnica, incluyendo el proce
 ## Base de Datos SQLite
 Para cumplir con los lineamientos de la prueba técnica, dado que `puestos_2026.db` pesa cerca de 480 MB (superando el límite de 50 MB de GitHub), el archivo fue alojado directamente como un **Release**.
 
-Puedes descargar la base de datos pre-cargada y lista para usar desde aquí:
+Puede descargar la base de datos pre-cargada y lista para usar desde aquí:
 [Descargar puestos_2026.db](../../releases/latest)
 
 Una vez descargada, debe ubicarse dentro de la carpeta `db/`.

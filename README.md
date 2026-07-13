@@ -5,14 +5,14 @@ Este repositorio contiene la solución a la prueba técnica, incluyendo el proce
 
 ## Estructura
 - **scraper/**: Contiene los scripts en Python usados para consumir la API de la Registraduría y descargar los JSON de las mesas.
-- **db/**: Carpeta destinada para alojar la base de datos `puestos_2026.db` (excluida por su peso) y el script `etl.py` que procesa los JSON.
+- **db/**: Contiene el script `etl.py` encargado del procesamiento de datos. La base de datos resultante (`puestos_2026.db`) se encuentra disponible para su descarga en la sección de "Releases".
 - **sql/**: Archivos con las consultas SQL requeridas en la prueba (Top Cámara, Arrastre, etc.).
 - **dashboard/**: Contiene el frontend `index.html` y el script `export_data.py` encargado de generar el archivo ligero `data.json` para las gráficas.
 
 ## Base de Datos SQLite
-Para cumplir con los lineamientos de la prueba (y dado que `puestos_2026.db` pesa cerca de 480 MB, superando el límite de 50 MB de GitHub), el archivo fue excluido usando `.gitignore`.
+Para cumplir con los lineamientos de la prueba técnica, dado que `puestos_2026.db` pesa cerca de 480 MB (superando el límite de 50 MB de GitHub), el archivo fue alojado directamente como un **Release**.
 
-La base de datos pre-cargada se puede descargar desde la pestaña de "Releases" de este repositorio:
+Puedes descargar la base de datos pre-cargada y lista para usar desde aquí:
 [Descargar puestos_2026.db](../../releases/latest)
 
 Una vez descargada, debe ubicarse dentro de la carpeta `db/`.

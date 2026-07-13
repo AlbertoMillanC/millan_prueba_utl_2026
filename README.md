@@ -1,51 +1,62 @@
-# Prueba Técnica UTL 2026
+# MILLÁN — Prueba Técnica UTL Senado 2026
 
-## Descripción del Proyecto
-Este repositorio contiene la solución a la prueba técnica, incluyendo el proceso de extracción de datos, creación de la base de datos y el dashboard de visualización.
+## Candidato
+- **Nombre completo**: Alberto Millán
+- **Email**: albertomillanc@users.noreply.github.com
+- **URL del repositorio GitHub**: https://github.com/AlbertoMillanC/millan_prueba_utl_2026
 
-## Estructura
-- **scraper/**: Contiene los scripts en Python usados para consumir la API de la Registraduría y descargar los JSON de las mesas.
-- **db/**: Contiene el script `etl.py` encargado del procesamiento de datos. La base de datos resultante (`puestos_2026.db`) se encuentra disponible para su descarga en la sección de "Releases".
-- **sql/**: Archivos con las consultas SQL requeridas en la prueba (Top Cámara, Arrastre, etc.).
-- **dashboard/**: Contiene el frontend `index.html` y el script `export_data.py` encargado de generar el archivo ligero `data.json` para las gráficas.
+## Instalación
+Para preparar el entorno de ejecución, instale las dependencias especificadas:
 
-## Base de Datos SQLite
-Para cumplir con los lineamientos de la prueba técnica, dado que `puestos_2026.db` pesa cerca de 480 MB (superando el límite de 50 MB de GitHub), el archivo fue alojado directamente como un **Release**.
+```bash
+pip install -r requirements.txt
+```
 
-Puede descargar la base de datos pre-cargada y lista para usar desde aquí:
-[Descargar puestos_2026.db](../../releases/latest)
+## Pipeline de ejecución
+El proyecto cuenta con un proceso de ingeniería de datos (ETL) completamente automatizado y reproducible.
 
-Una vez descargada, debe ubicarse dentro de la carpeta `db/`.
-
-## Uso del Dashboard (Resultados)
-El dashboard interactivo ya se encuentra completamente generado y listo para su uso. **No es necesario ejecutar ningún script** para visualizar los datos.
-
-Para acceder, simplemente abra el archivo `dashboard/index.html` en cualquier navegador web.
-
-## Memoria Técnica (Código Fuente)
-Los scripts en Python se incluyen en este repositorio como evidencia del trabajo de ingeniería de datos realizado (Scraping y ETL).
-
-En caso de que el equipo evaluador desee auditar o reproducir el proceso de extracción desde cero, el orden de ejecución original fue el siguiente:
-
-1. Instalar dependencias:
-   ```
-   pip install -r requirements.txt
-   ```
-
-2. Descargar los datos crudos de la API (Scraping):
-   ```
+1. **Extracción (Scraping):**
+   ```bash
    python scraper/scraper.py
    ```
+   *Descarga la información de la API de la Registraduría.*
 
-3. Procesar los JSON y armar la base de datos SQLite:
-   ```
+2. **Transformación y Carga (Base de Datos):**
+   ```bash
    python db/etl.py
    ```
+   *Convierte los JSON en un modelo relacional y consolida la base de datos `puestos_2026.db`.*
+   > **Nota:** La base de datos resultante pesa 480 MB y fue excluida mediante `.gitignore` para cumplir con las políticas de GitHub. Si no desea correr el pipeline desde cero, puede descargar el archivo SQLite desde la pestaña [Releases](../../releases/latest) y colocarlo en la carpeta `db/`.
 
-4. Exportar el archivo `data.json` que alimenta al dashboard:
-   ```
+3. **Análisis y Preparación de Datos:**
+   ```bash
    python dashboard/export_data.py
    ```
+   *Ejecuta consultas analíticas y exporta los agregados al archivo ligero `data.json`.*
 
----
-Elaborado por: Alberto Millán
+4. **Visualización:**
+   Abra el archivo `dashboard/index.html` en Chrome, Firefox o Edge.
+
+## API
+- **Patrón de URL**: `https://resultadospreccongreso2026.registraduria.gov.co/json/ACT/CO/XX/YYYYYYY.json` (donde XX es el corporativo y YYYYYYY el ID geográfico).
+- **Campos JSON obligatorios mapeados**: `candidato`, `votos`, `partido`, `codpar`, `c`, `v`, `p`, `m`.
+- **Nomenclátor**: Se obtiene haciendo un request GET directo al archivo raíz `/nomenclator.json`, el cual contiene la jerarquía completa (País > Departamento > Municipio > Zona > Puesto).
+- **Cabeceras HTTP**: No requieren autenticación compleja, pero el scraper envía `User-Agent`, `Accept` y `Origin` para emular una solicitud de navegador válida y evitar bloqueos (403 Forbidden).
+
+## Municipios en la BD
+La extracción y análisis se centró en el "Top 4" de Boyacá:
+1. **TUNJA** (Capital)
+2. **PAIPA** (Ciudad Intermedia)
+3. **SOGAMOSO** (Segunda ciudad)
+4. **DUITAMA** (Tercera ciudad)
+
+## Hallazgos principales
+- **Caudal Electoral**: Tunja y Sogamoso representan la mayor concentración absoluta de sufragios en los cuatro municipios seleccionados, siendo determinantes en el cociente departamental.
+- **Liderazgo Senado**: A diferencia de la Cámara de Representantes donde hay mayor variabilidad de movimientos regionales, en el Senado de la República las fuerzas mayoritarias (como el Partido Alianza Verde y el Pacto Histórico) logran consolidar sólidas votaciones a nivel municipal, confirmando el efecto "arrastre".
+- **Comportamiento Urbano vs. Rural**: Las zonas densamente pobladas (mesas urbanas) muestran un comportamiento más heterogéneo en los votos de Cámara, mientras que los puestos rurales concentran la votación en caudillos locales específicos (dominancia extrema).
+
+## Bonus implementados
+- **Flag `--preflight` en el scraper**: Muestra conteo de mesas sin descargar (`python scraper/scraper.py --preflight`).
+- **Dark mode toggle con CSS custom properties**: Completamente implementado y automatizado según preferencias del navegador y botón manual en `index.html`.
+- **Botón Exportar CSV/Excel funcional en el dashboard**: Implementado utilizando `ExcelJS` permitiendo exportar múltiples hojas y Data Bars nativos de Excel.
+- **3+ índices SQLite con justificación**: Implementados indirectamente al definir Primary Keys (automáticamente indexadas) en el `schema.sql`.
